@@ -1,0 +1,137 @@
+.shopingCardcontainer {
+  padding: 10px;
+
+  list-style: none;
+
+  height: 550px;
+  overflow-y: auto;
+
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.shopingCarditem {
+  position: relative;
+  /* width: 700px; */
+  width: 100%;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.shopingCardfakeImg {
+  width: 200px;
+  background-color: gray;
+  margin-right: 20px;
+}
+
+.shopingCardtitle {
+  width: 500px;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.removeIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 36px;
+  height: 36px;
+
+  fill: gray;
+}
+
+.removeIcon:hover {
+  fill: #3470ff;
+}
+
+.shopingCardshopBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.inputData {
+  height: 30px;
+  border-radius: 6px;
+  width: 300px;
+}
+
+.dataBox {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.userDataBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.quantityInput {
+  margin-top: 25px;
+  outline: none;
+  border: 1px solid;
+  border-radius: 6px;
+  height: 30px;
+  text-align: center;
+}
+
+.drugBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.totalBox {
+  margin-top: 5px;
+  display: flex;
+  gap: 30px;
+}
+
+.submitBtn{
+  border-radius: 10px;
+  width: 150px;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: white;
+}
+
+.submitBtn:hover{
+  background-color: lightgrey;
+}
+
+.inputContainer{
+  position: relative;
+  height: 50px;
+}
+
+.text{
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  color: red;
+  font-weight: 100;
+}

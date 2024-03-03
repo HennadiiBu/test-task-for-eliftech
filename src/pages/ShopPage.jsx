@@ -27,7 +27,7 @@ const ShopPage = () => {
       }}
     >
       <PharmacyList drugs={drugs}></PharmacyList>
-      <DrugsList drugs={filteredDrugs.length===0?drugs:filteredDrugs}></DrugsList>
+      <DrugsList drugs={filteredDrugs===null||filteredDrugs.length===0?drugs:filteredDrugs}></DrugsList>
     </div>
   );
 };

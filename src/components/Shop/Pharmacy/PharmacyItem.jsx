@@ -9,11 +9,10 @@ const PharmacyItem = ({ shop, drugs }) => {
   const handleClick = (e) => {
     const data = drugs.filter((elem) => elem.shop === e.target.innerText);
     dispatch(applyFilter(data));
-    console.log(data)
   };
 
   return (
-    <li  key={drugs.id}>
+    <li key={drugs.id} className={css.item}>
       <button className={css.shopBtn} onClick={handleClick}>
         {shop}
       </button>

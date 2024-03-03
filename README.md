@@ -8,15 +8,18 @@ This website is built on the React framework, we have collected a wide range of 
 
 ### Home:
 Provides brief information about our service and allows users to browse available cars.
-![image](https://github.com/HennadiiBu/car-rental/assets/99074724/866ebe12-12dd-4380-9d8a-bc93edcd1152)
+![image](https://github.com/HennadiiBu/test-task-for-eliftech/assets/99074724/026878c6-0dc7-47b7-8aed-fe19b730e3db)
+
 
 ### Shop:
 The drugs catalog page where users can apply filters based on the pharmacy shop and add drugs to shoping card.
-![image](https://github.com/HennadiiBu/car-rental/assets/99074724/e4eb68b6-55fc-4d7d-9700-68cef16c8f7f)
+![image](https://github.com/HennadiiBu/test-task-for-eliftech/assets/99074724/6881f474-90b1-48f7-bf34-21e14cb0fe77)
+
 
 ### Shoping Card:
 On this page, users can change quantity of drugs and confirm order.
-![image](https://github.com/HennadiiBu/car-rental/assets/99074724/54213e74-adaa-499e-b80f-fa6f40d93b88)
+![image](https://github.com/HennadiiBu/test-task-for-eliftech/assets/99074724/04f48c14-eae9-46f1-b8f4-17820d4fa29d)
+
 
 
 ## Web Features

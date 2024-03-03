@@ -1,4 +1,4 @@
-# Car Rental
+# Pharmacy Shop
 
 Welcome to Pharmacy Website Repository
 
